@@ -1,0 +1,21 @@
+{
+  "name": "next-export-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "balazs4 <balazs4web@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "next build && next export",
+    "serve": "serve out",
+    "start": "next start",
+    "dev": "next"
+  },
+  "dependencies": {
+    "next": "^5.1.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
+  "devDependencies": {
+    "serve": "^6.5.5"
+  }
+}
